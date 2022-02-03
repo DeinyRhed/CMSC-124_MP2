@@ -93,10 +93,8 @@ while True:
             # Incase testCase have odd number and length of testCase and checkResult doesn't match, it immediately prints Invalid String
             if testCase.count('(') == testCase.count(')') and len(checkResult) == len(testCase):
                 print ("Valid Input String")
-                print(checkResult)
             else:
                 print("Invalid Input String")
-                print(checkResult)
         else:
             print("Invalid Input String")
     except:
